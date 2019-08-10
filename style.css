@@ -13,7 +13,6 @@ i {
 }
 
 footer {
-    position: absolute;
     /* bottom: 0; */
     padding: 10px;
     height: 70px;
@@ -44,4 +43,10 @@ nav ul li,
 nav ul div,
 nav ul form {
     margin: 0 40px !important;
+}
+
+@media screen and (min-width: 1249px) {
+    footer {
+        position: absolute;
+    }
 }
